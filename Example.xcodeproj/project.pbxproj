@@ -11,21 +11,21 @@
 		D5556C0E229022DF0081FF1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5556C0D229022DF0081FF1E /* Assets.xcassets */; };
 		D5556C11229022DF0081FF1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5556C0F229022DF0081FF1E /* LaunchScreen.storyboard */; };
 		D5556C1F229023AB0081FF1E /* ExampSimpleCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5556C1E229023AB0081FF1E /* ExampSimpleCalendar.swift */; };
-		D5556C512290366F0081FF1E /* SimpleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5556C50229036680081FF1E /* SimpleCalendar.framework */; };
-		D5556C522290366F0081FF1E /* SimpleCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5556C50229036680081FF1E /* SimpleCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D5556C67229044F20081FF1E /* SimpleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5556C66229044EA0081FF1E /* SimpleCalendar.framework */; };
+		D5556C68229044F20081FF1E /* SimpleCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5556C66229044EA0081FF1E /* SimpleCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D5556C4F229036680081FF1E /* PBXContainerItemProxy */ = {
+		D5556C65229044EA0081FF1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D5556C4B229036680081FF1E /* SimpleCalendar.xcodeproj */;
+			containerPortal = D5556C61229044EA0081FF1E /* SimpleCalendar.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D5556B9F229013CD0081FF1E;
 			remoteInfo = SimpleCalendar;
 		};
-		D5556C532290366F0081FF1E /* PBXContainerItemProxy */ = {
+		D5556C69229044F20081FF1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D5556C4B229036680081FF1E /* SimpleCalendar.xcodeproj */;
+			containerPortal = D5556C61229044EA0081FF1E /* SimpleCalendar.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = D5556B9E229013CD0081FF1E;
 			remoteInfo = SimpleCalendar;
@@ -39,7 +39,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D5556C522290366F0081FF1E /* SimpleCalendar.framework in Embed Frameworks */,
+				D5556C68229044F20081FF1E /* SimpleCalendar.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,7 +53,7 @@
 		D5556C10229022DF0081FF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5556C12229022DF0081FF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5556C1E229023AB0081FF1E /* ExampSimpleCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampSimpleCalendar.swift; sourceTree = "<group>"; };
-		D5556C4B229036680081FF1E /* SimpleCalendar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleCalendar.xcodeproj; path = SimpleCalendar/SimpleCalendar.xcodeproj; sourceTree = SOURCE_ROOT; };
+		D5556C61229044EA0081FF1E /* SimpleCalendar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleCalendar.xcodeproj; path = SimpleCalendar/SimpleCalendar.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5556C512290366F0081FF1E /* SimpleCalendar.framework in Frameworks */,
+				D5556C67229044F20081FF1E /* SimpleCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 		D5556C05229022DD0081FF1E /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				D5556C4B229036680081FF1E /* SimpleCalendar.xcodeproj */,
+				D5556C61229044EA0081FF1E /* SimpleCalendar.xcodeproj */,
 				D5556C06229022DD0081FF1E /* AppDelegate.swift */,
 				D5556C1E229023AB0081FF1E /* ExampSimpleCalendar.swift */,
 				D5556C0D229022DF0081FF1E /* Assets.xcassets */,
@@ -97,10 +97,10 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
-		D5556C4C229036680081FF1E /* Products */ = {
+		D5556C62229044EA0081FF1E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5556C50229036680081FF1E /* SimpleCalendar.framework */,
+				D5556C66229044EA0081FF1E /* SimpleCalendar.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,7 +120,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				D5556C542290366F0081FF1E /* PBXTargetDependency */,
+				D5556C6A229044F20081FF1E /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
@@ -155,8 +155,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = D5556C4C229036680081FF1E /* Products */;
-					ProjectRef = D5556C4B229036680081FF1E /* SimpleCalendar.xcodeproj */;
+					ProductGroup = D5556C62229044EA0081FF1E /* Products */;
+					ProjectRef = D5556C61229044EA0081FF1E /* SimpleCalendar.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -167,11 +167,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		D5556C50229036680081FF1E /* SimpleCalendar.framework */ = {
+		D5556C66229044EA0081FF1E /* SimpleCalendar.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = SimpleCalendar.framework;
-			remoteRef = D5556C4F229036680081FF1E /* PBXContainerItemProxy */;
+			remoteRef = D5556C65229044EA0081FF1E /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -201,10 +201,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D5556C542290366F0081FF1E /* PBXTargetDependency */ = {
+		D5556C6A229044F20081FF1E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SimpleCalendar;
-			targetProxy = D5556C532290366F0081FF1E /* PBXContainerItemProxy */;
+			targetProxy = D5556C69229044F20081FF1E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
