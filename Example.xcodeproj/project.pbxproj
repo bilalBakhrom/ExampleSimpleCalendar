@@ -8,20 +8,52 @@
 
 /* Begin PBXBuildFile section */
 		D5556C07229022DD0081FF1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5556C06229022DD0081FF1E /* AppDelegate.swift */; };
-		D5556C09229022DE0081FF1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5556C08229022DD0081FF1E /* ViewController.swift */; };
-		D5556C0C229022DE0081FF1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5556C0A229022DE0081FF1E /* Main.storyboard */; };
 		D5556C0E229022DF0081FF1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5556C0D229022DF0081FF1E /* Assets.xcassets */; };
 		D5556C11229022DF0081FF1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5556C0F229022DF0081FF1E /* LaunchScreen.storyboard */; };
+		D5556C1F229023AB0081FF1E /* ExampSimpleCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5556C1E229023AB0081FF1E /* ExampSimpleCalendar.swift */; };
+		D5556C512290366F0081FF1E /* SimpleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5556C50229036680081FF1E /* SimpleCalendar.framework */; };
+		D5556C522290366F0081FF1E /* SimpleCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5556C50229036680081FF1E /* SimpleCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5556C4F229036680081FF1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5556C4B229036680081FF1E /* SimpleCalendar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D5556B9F229013CD0081FF1E;
+			remoteInfo = SimpleCalendar;
+		};
+		D5556C532290366F0081FF1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5556C4B229036680081FF1E /* SimpleCalendar.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D5556B9E229013CD0081FF1E;
+			remoteInfo = SimpleCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5556C4A229035F20081FF1E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D5556C522290366F0081FF1E /* SimpleCalendar.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		D5556C03229022DD0081FF1E /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5556C06229022DD0081FF1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5556C08229022DD0081FF1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D5556C0B229022DE0081FF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5556C0D229022DF0081FF1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5556C10229022DF0081FF1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5556C12229022DF0081FF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5556C1E229023AB0081FF1E /* ExampSimpleCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampSimpleCalendar.swift; sourceTree = "<group>"; };
+		D5556C4B229036680081FF1E /* SimpleCalendar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SimpleCalendar.xcodeproj; path = SimpleCalendar/SimpleCalendar.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5556C512290366F0081FF1E /* SimpleCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,14 +87,22 @@
 		D5556C05229022DD0081FF1E /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				D5556C4B229036680081FF1E /* SimpleCalendar.xcodeproj */,
 				D5556C06229022DD0081FF1E /* AppDelegate.swift */,
-				D5556C08229022DD0081FF1E /* ViewController.swift */,
-				D5556C0A229022DE0081FF1E /* Main.storyboard */,
+				D5556C1E229023AB0081FF1E /* ExampSimpleCalendar.swift */,
 				D5556C0D229022DF0081FF1E /* Assets.xcassets */,
 				D5556C0F229022DF0081FF1E /* LaunchScreen.storyboard */,
 				D5556C12229022DF0081FF1E /* Info.plist */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		D5556C4C229036680081FF1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5556C50229036680081FF1E /* SimpleCalendar.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,10 +115,12 @@
 				D5556BFF229022DD0081FF1E /* Sources */,
 				D5556C00229022DD0081FF1E /* Frameworks */,
 				D5556C01229022DD0081FF1E /* Resources */,
+				D5556C4A229035F20081FF1E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D5556C542290366F0081FF1E /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
@@ -110,12 +153,28 @@
 			mainGroup = D5556BFA229022DD0081FF1E;
 			productRefGroup = D5556C04229022DD0081FF1E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D5556C4C229036680081FF1E /* Products */;
+					ProjectRef = D5556C4B229036680081FF1E /* SimpleCalendar.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D5556C02229022DD0081FF1E /* Example */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D5556C50229036680081FF1E /* SimpleCalendar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SimpleCalendar.framework;
+			remoteRef = D5556C4F229036680081FF1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D5556C01229022DD0081FF1E /* Resources */ = {
@@ -124,7 +183,6 @@
 			files = (
 				D5556C11229022DF0081FF1E /* LaunchScreen.storyboard in Resources */,
 				D5556C0E229022DF0081FF1E /* Assets.xcassets in Resources */,
-				D5556C0C229022DE0081FF1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +193,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5556C09229022DE0081FF1E /* ViewController.swift in Sources */,
+				D5556C1F229023AB0081FF1E /* ExampSimpleCalendar.swift in Sources */,
 				D5556C07229022DD0081FF1E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		D5556C0A229022DE0081FF1E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5556C0B229022DE0081FF1E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		D5556C542290366F0081FF1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SimpleCalendar;
+			targetProxy = D5556C532290366F0081FF1E /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		D5556C0F229022DF0081FF1E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -281,10 +339,12 @@
 		D5556C16229022DF0081FF1E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DNW46HQPWS;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,17 +352,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bilalBakhrom.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		D5556C17229022DF0081FF1E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DNW46HQPWS;
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bilalBakhrom.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
