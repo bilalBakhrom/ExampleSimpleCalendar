@@ -16,6 +16,7 @@ class ExampSimpleCalendar: UIViewController, SimpleCalendarDelegate {
     
     @objc private func pushSimpleCalendar(_ sender: UIButton) {
         let controller = SimpleCalendar { (config) in
+            config.barImage = UIImage(named: "icon")
             // default config
         }
         controller.delegate = self
@@ -31,6 +32,7 @@ class ExampSimpleCalendar: UIViewController, SimpleCalendarDelegate {
             config.locale = Locale(identifier: "ru")
             config.barTitle = "Мой календарь"
             config.barTitleColor = .red
+            config.barImage = UIImage(named: "icon")
             
             config.configureCell { (cellConfig) in
                 cellConfig.dayCellSelectionStyle = .circle

@@ -1,0 +1,6 @@
+framework module SimpleCalendar {
+  umbrella header "SimpleCalendar-umbrella.h"
+
+  export *
+  module * { export * }
+}
