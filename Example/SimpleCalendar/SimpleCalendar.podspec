@@ -1,22 +1,18 @@
-
+Pod::Spec.new do |spec|
   spec.name         = "SimpleCalendar"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of SimpleCalendar."
+  spec.version      = "1.0.6"
+  spec.summary      = "A simple calendar for iOS devices (iphone)."
   spec.description  = <<-DESC
+                Display calendar with SimpleCalendar controller.
                    DESC
-
-  spec.homepage     = "http://EXAMPLE/SimpleCalendar"
-  spec.license      = "MIT (example)"
+  spec.homepage     = "https://github.com/bilalBakhrom/SimpleCalendar"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author             = { "Bilal Bakhrom" => "bilalbakhrom@gmail.com" }
-
-  spec.platform     = :ios
   spec.platform     = :ios, "9.0"
-
-  spec.source       = { :git => "http://EXAMPLE/SimpleCalendar.git", :tag => "#{spec.version}" }
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
-
-  spec.public_header_files = "Classes/**/*.h"
-  spec.resources = "Resources/*.png"
-
+  spec.source       = { :git => "https://github.com/bilalBakhrom/SimpleCalendar.git", :tag => "1.0.6" }
+  spec.source_files  = "SimpleCalendar/**/*.{h,m,swift,xcdatamodeld, xcassets}"
+  spec.resource_bundles = {
+	'SimpleCalendar' => ['SimpleCalendar/Resource/SimpleCalendar.bundle']
+	}
+  spec.swift_version = "5.0"
 end

@@ -11,8 +11,8 @@
 		D5556C0E229022DF0081FF1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5556C0D229022DF0081FF1E /* Assets.xcassets */; };
 		D5556C11229022DF0081FF1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5556C0F229022DF0081FF1E /* LaunchScreen.storyboard */; };
 		D5556C1F229023AB0081FF1E /* ExampSimpleCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5556C1E229023AB0081FF1E /* ExampSimpleCalendar.swift */; };
-		D5556C67229044F20081FF1E /* SimpleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5556C66229044EA0081FF1E /* SimpleCalendar.framework */; };
-		D5556C68229044F20081FF1E /* SimpleCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5556C66229044EA0081FF1E /* SimpleCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D59BD25922915A830012457F /* SimpleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5556C66229044EA0081FF1E /* SimpleCalendar.framework */; };
+		D59BD25A22915A830012457F /* SimpleCalendar.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D5556C66229044EA0081FF1E /* SimpleCalendar.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +23,7 @@
 			remoteGlobalIDString = D5556B9F229013CD0081FF1E;
 			remoteInfo = SimpleCalendar;
 		};
-		D5556C69229044F20081FF1E /* PBXContainerItemProxy */ = {
+		D59BD25B22915A830012457F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D5556C61229044EA0081FF1E /* SimpleCalendar.xcodeproj */;
 			proxyType = 1;
@@ -33,13 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D5556C4A229035F20081FF1E /* Embed Frameworks */ = {
+		D59BD25D22915A830012457F /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D5556C68229044F20081FF1E /* SimpleCalendar.framework in Embed Frameworks */,
+				D59BD25A22915A830012457F /* SimpleCalendar.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5556C67229044F20081FF1E /* SimpleCalendar.framework in Frameworks */,
+				D59BD25922915A830012457F /* SimpleCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,12 +115,12 @@
 				D5556BFF229022DD0081FF1E /* Sources */,
 				D5556C00229022DD0081FF1E /* Frameworks */,
 				D5556C01229022DD0081FF1E /* Resources */,
-				D5556C4A229035F20081FF1E /* Embed Frameworks */,
+				D59BD25D22915A830012457F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D5556C6A229044F20081FF1E /* PBXTargetDependency */,
+				D59BD25C22915A830012457F /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
@@ -201,10 +201,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D5556C6A229044F20081FF1E /* PBXTargetDependency */ = {
+		D59BD25C22915A830012457F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SimpleCalendar;
-			targetProxy = D5556C69229044F20081FF1E /* PBXContainerItemProxy */;
+			targetProxy = D59BD25B22915A830012457F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
