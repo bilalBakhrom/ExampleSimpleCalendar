@@ -1,5 +1,5 @@
 PODS:
-  - SimpleCalendar (1.0.7)
+  - SimpleCalendar (1.0.9)
 
 DEPENDENCIES:
   - SimpleCalendar
@@ -9,7 +9,7 @@ SPEC REPOS:
     - SimpleCalendar
 
 SPEC CHECKSUMS:
-  SimpleCalendar: a90353ab8d040edf3b982c06b20d8239f1354a8f
+  SimpleCalendar: 46fa55f8502ea7d9e52056a026d1be1b4574f4cb
 
 PODFILE CHECKSUM: 22d32ca463fff5ff0b166e87f7c21a2a4d05c188
 
