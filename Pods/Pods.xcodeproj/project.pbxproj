@@ -66,7 +66,7 @@
 /* Begin PBXFileReference section */
 		06499CF1EFF291517087210228BF6F9B /* SimpleCalendar+UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SimpleCalendar+UITableView.swift"; path = "SimpleCalendar/SimpleCalendar/Controller/SimpleCalendar+UITableView.swift"; sourceTree = "<group>"; };
 		0B3034552D47E97A8BE45AF31A20D680 /* MonthTableCellModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthTableCellModel.swift; path = SimpleCalendar/MonthCell/Model/MonthTableCellModel.swift; sourceTree = "<group>"; };
-		15DB75D7A716B75DF3674EAA6332ECAF /* SimpleCalendar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCalendar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DB75D7A716B75DF3674EAA6332ECAF /* SimpleCalendar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SimpleCalendar.bundle; path = "SimpleCalendar-SimpleCalendar.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AB59688DC88A6D0B7D7CE1E7127BC27 /* MonthTableCellUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthTableCellUI.swift; path = SimpleCalendar/MonthCell/View/MonthTableCellUI.swift; sourceTree = "<group>"; };
 		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		2BAC86CFAA10937DD082DE5D5270586D /* UIViewController+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Extension.swift"; path = "SimpleCalendar/Extension/UIViewController+Extension.swift"; sourceTree = "<group>"; };
@@ -99,15 +99,15 @@
 		832165BB8376E636488C7361392927C3 /* MonthTableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthTableCell.swift; path = SimpleCalendar/MonthCell/CellController/MonthTableCell.swift; sourceTree = "<group>"; };
 		84A7776411B90574E724482EE13D9431 /* ComponentCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentCell.swift; path = SimpleCalendar/ComponentCell/Controller/ComponentCell.swift; sourceTree = "<group>"; };
 		8C0A6B55C105ED04AB4CFB988398706E /* SimpleCalendar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleCalendar.h; path = SimpleCalendar/SimpleCalendar.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E715EBC84C92A5FA75D872ECC41376C /* CalendarHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarHeaderView.swift; path = SimpleCalendar/SimpleCalendar/View/CalendarHeaderView.swift; sourceTree = "<group>"; };
 		A04AFA629CD9423E46397FA0BFB2CFD4 /* MonthDataContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MonthDataContainer.swift; path = SimpleCalendar/MonthCell/Model/MonthDataContainer.swift; sourceTree = "<group>"; };
 		A26727DC021962D9F91DF75F4383FC8F /* UIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "SimpleCalendar/Extension/UIView+Extension.swift"; sourceTree = "<group>"; };
 		AC65B29B64CBEA2512AA69F810097A48 /* SimpleCalendar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SimpleCalendar-Info.plist"; sourceTree = "<group>"; };
-		AECCF0DB936281705ED4C1889961F768 /* SimpleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SimpleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AECCF0DB936281705ED4C1889961F768 /* SimpleCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SimpleCalendar.framework; path = SimpleCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BD7E790198BB5826E3FA0B25E569F995 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD7E790198BB5826E3FA0B25E569F995 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2258E3FC2047C5BB20AEA86C446ACD3 /* Int+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Extension.swift"; path = "SimpleCalendar/Extension/Int+Extension.swift"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
@@ -222,6 +222,7 @@
 				C80EF1E3E5875ADE9EF2058FEC952D29 /* Resources */,
 				F581E3038639AD250C0CEEF2E0B33866 /* Support Files */,
 			);
+			name = SimpleCalendar;
 			path = SimpleCalendar;
 			sourceTree = "<group>";
 		};
@@ -360,15 +361,14 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = AF7D5C4E62A432B771294FC99F235AB2 /* Products */;
@@ -482,7 +482,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -599,7 +598,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
